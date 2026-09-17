@@ -39,9 +39,8 @@ hidutil list | grep -i 0x269 | grep AppleMultitouchDevice
 The mouse should start working within a few seconds. From then on the agent runs at
 login and wakes the mouse every time it connects.
 
-If macOS refuses to open the app because it cannot check it for malicious software, go
-to **System Settings > Privacy & Security**, scroll down, and click **Open Anyway**.
-Or build it yourself, below.
+The app is signed with a Developer ID and **notarized by Apple**, so it opens without
+Gatekeeper warnings. You can also build it yourself, below.
 
 ### About the Input Monitoring permission
 
